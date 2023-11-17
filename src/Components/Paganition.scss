@@ -1,0 +1,24 @@
+.character-paganition{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  li{
+    background-color:#7306ff;
+    border-radius: 5px;
+    a{
+      padding: 5px;
+      font-size: 25px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+  li:hover{
+    background-color: #eaeaf9;
+    a{
+      color: #7306ff;
+    }
+  }
+    li:active {
+      background-color: #d7d7f8;
+    }
+}

@@ -1,0 +1,24 @@
+.character-paganition {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.character-paganition li {
+  background-color: #7306ff;
+  border-radius: 5px;
+}
+.character-paganition li a {
+  padding: 5px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.character-paganition li:hover {
+  background-color: #eaeaf9;
+}
+.character-paganition li:hover a {
+  color: #7306ff;
+}
+.character-paganition li:active {
+  background-color: #d7d7f8;
+}

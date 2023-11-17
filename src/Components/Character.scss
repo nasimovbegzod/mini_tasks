@@ -1,0 +1,41 @@
+
+  .Card {
+    width: 300px;
+    height: 900px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+
+    .CardTop {
+      padding: 15px 15px;
+
+      button {
+        position: absolute;
+        z-index: 1;
+        font-size: 30px;
+        border: none;
+        background-color: transparent;
+      }
+
+      img {
+        object-fit: contain;
+        position: relative;
+        width: 250px;
+        height: 300px;
+      }
+
+      img:hover {
+        transform: scale(1.02);
+        transition: 0.10s;
+      }
+    }
+
+    .CardBottom {
+      padding: 10px;
+    }
+  }
+
+  .Card:hover {
+    box-shadow: 2px 8px 5px rgba(0, 0, 0, 0.1);
+  }

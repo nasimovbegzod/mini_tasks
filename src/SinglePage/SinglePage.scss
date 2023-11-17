@@ -1,0 +1,93 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  .SinglePgaeleft {
+    width: 50%;
+    .ProductImageSlider {
+      background-color: grey;
+      width: 500px;
+      height: 500px;
+
+      .SwiperImg {
+        img {
+          width: 600px;
+          height: 600px;
+        }
+      }
+
+      .swiper-button-prev {
+        color: #ffffff;
+        background-color: rgba(23, 25, 29, 0.5);
+        border-radius: 360px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .swiper-button-prev:after {
+        font-size: 20px;
+      }
+
+      .swiper-button-next {
+        color: #ffffff;
+        background-color: rgba(23, 25, 29, 0.5);
+        border-radius: 360px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .swiper-button-next:after {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .Product-Image-Slider-thumbs {
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+    .swiper-slide {
+      cursor: pointer;
+      border: 2px solid #dddbdb;
+
+      &-thumb-active {
+        border-color: #403c3c;
+      }
+    }
+
+    &-wrapper {
+      width: 100%;
+      padding-top: 100%;
+      overflow: hidden;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .SinglePgaeRight {
+    width: 45%;
+    .kg {
+      display: flex;
+      gap: 20px;
+    }
+
+    .adition {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid #7a11ff;
+      width: 115px;
+      padding: 5px;
+      border-radius: 8px;
+      font-size: 20px;
+    }
+  }
+}
